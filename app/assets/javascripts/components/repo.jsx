@@ -41,9 +41,13 @@ class Repo extends React.Component {
           )
         }
       >
-        <div className="repo-name">
+        <div className="repo-name" ariaDescribedby="repo-{name}">
           {name}
         </div>
+
+        <span className="badge margin-left-small" idName="repo-{name}">
+          Private
+        </span>
 
         <div className={classNames(
           "repo-activation-toggle",
