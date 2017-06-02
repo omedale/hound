@@ -2,11 +2,7 @@
   @include clearfix;
   border-top: 1px solid $base-border-color;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   padding: 1em;
-  position: relative;
-  width: 100%;
 
   @include media($small-screen-only) {
     display: block;
@@ -44,7 +40,6 @@
   color: $medium-font-color;
   font-size: 1.5em;
   font-weight: $font-weight-light;
-  height: 100%;
   padding-bottom: 2px;
   transition: $base-transition;
 
